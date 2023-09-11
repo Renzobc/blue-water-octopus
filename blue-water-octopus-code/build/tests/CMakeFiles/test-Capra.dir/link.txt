@@ -1,0 +1,1 @@
+/usr/bin/g++-10  -g   CMakeFiles/test-Capra.dir/Capra/test-Capra.cpp.o  -o test-Capra  ../lib/libgtest_maind.a ../src/libCapra.a ../lib/libgtestd.a -lpthread 

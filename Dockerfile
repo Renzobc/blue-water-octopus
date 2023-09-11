@@ -16,12 +16,17 @@ RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone &
   python3-pip \
   nano \ 
   gnupg \
+  git \
   gdb \
   sudo \
   clang-tidy \
   build-essential \
   && pip install -U autopep8 \
   && rm -rf /var/lib/apt/lists/*
+
+RUN curl -s https://packagecloud.io/install/repositories/dirk-thomas/colcon/script.deb.sh | sudo bash \
+  && pip install -U colcon-common-extensions
+
 
 ENV CMAKE_MAKE_PROGRAM=/usr/bin/make
 ENV CMAKE_CXX_COMPILER=/usr/bin/g++

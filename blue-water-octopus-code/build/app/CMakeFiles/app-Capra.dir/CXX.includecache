@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Capra/Capra.hpp
+algorithm
+-
+vector
+-
+cmath
+-
+string
+-
+memory
+-
+set
+-
+iostream
+-
+
+/usr/workspaces/Knowledgebase/capra_exercize/app/Capra/app-Capra.cpp
+Capra/Capra.hpp
+-
+

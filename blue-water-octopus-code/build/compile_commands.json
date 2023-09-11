@@ -1,0 +1,37 @@
+[
+{
+  "directory": "/usr/workspaces/Knowledgebase/capra_exercize/build/src",
+  "command": "/usr/bin/g++-10   -I/usr/workspaces/Knowledgebase/capra_exercize/include  -g   -std=gnu++2a -o CMakeFiles/Capra.dir/Capra/Capra.cpp.o -c /usr/workspaces/Knowledgebase/capra_exercize/src/Capra/Capra.cpp",
+  "file": "/usr/workspaces/Knowledgebase/capra_exercize/src/Capra/Capra.cpp"
+},
+{
+  "directory": "/usr/workspaces/Knowledgebase/capra_exercize/build/app",
+  "command": "/usr/bin/g++-10   -I/usr/workspaces/Knowledgebase/capra_exercize/include  -g   -std=gnu++2a -o CMakeFiles/app-Capra.dir/Capra/app-Capra.cpp.o -c /usr/workspaces/Knowledgebase/capra_exercize/app/Capra/app-Capra.cpp",
+  "file": "/usr/workspaces/Knowledgebase/capra_exercize/app/Capra/app-Capra.cpp"
+},
+{
+  "directory": "/usr/workspaces/Knowledgebase/capra_exercize/build/tests",
+  "command": "/usr/bin/g++-10   -I/usr/workspaces/Knowledgebase/capra_exercize/include -isystem /usr/workspaces/Knowledgebase/capra_exercize/build/_deps/googletest-src/googletest/include -isystem /usr/workspaces/Knowledgebase/capra_exercize/build/_deps/googletest-src/googletest  -g   -std=gnu++17 -o CMakeFiles/test-Capra.dir/Capra/test-Capra.cpp.o -c /usr/workspaces/Knowledgebase/capra_exercize/tests/Capra/test-Capra.cpp",
+  "file": "/usr/workspaces/Knowledgebase/capra_exercize/tests/Capra/test-Capra.cpp"
+},
+{
+  "directory": "/usr/workspaces/Knowledgebase/capra_exercize/build/_deps/googletest-build/googlemock",
+  "command": "/usr/bin/g++-10   -isystem /usr/workspaces/Knowledgebase/capra_exercize/build/_deps/googletest-src/googlemock/include -isystem /usr/workspaces/Knowledgebase/capra_exercize/build/_deps/googletest-src/googlemock -isystem /usr/workspaces/Knowledgebase/capra_exercize/build/_deps/googletest-src/googletest/include -isystem /usr/workspaces/Knowledgebase/capra_exercize/build/_deps/googletest-src/googletest  -g   -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++11 -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /usr/workspaces/Knowledgebase/capra_exercize/build/_deps/googletest-src/googlemock/src/gmock_main.cc",
+  "file": "/usr/workspaces/Knowledgebase/capra_exercize/build/_deps/googletest-src/googlemock/src/gmock_main.cc"
+},
+{
+  "directory": "/usr/workspaces/Knowledgebase/capra_exercize/build/_deps/googletest-build/googlemock",
+  "command": "/usr/bin/g++-10   -I/usr/workspaces/Knowledgebase/capra_exercize/build/_deps/googletest-src/googlemock/include -I/usr/workspaces/Knowledgebase/capra_exercize/build/_deps/googletest-src/googlemock -isystem /usr/workspaces/Knowledgebase/capra_exercize/build/_deps/googletest-src/googletest/include -isystem /usr/workspaces/Knowledgebase/capra_exercize/build/_deps/googletest-src/googletest  -g   -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++11 -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /usr/workspaces/Knowledgebase/capra_exercize/build/_deps/googletest-src/googlemock/src/gmock-all.cc",
+  "file": "/usr/workspaces/Knowledgebase/capra_exercize/build/_deps/googletest-src/googlemock/src/gmock-all.cc"
+},
+{
+  "directory": "/usr/workspaces/Knowledgebase/capra_exercize/build/_deps/googletest-build/googletest",
+  "command": "/usr/bin/g++-10   -isystem /usr/workspaces/Knowledgebase/capra_exercize/build/_deps/googletest-src/googletest/include -isystem /usr/workspaces/Knowledgebase/capra_exercize/build/_deps/googletest-src/googletest  -g   -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++11 -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /usr/workspaces/Knowledgebase/capra_exercize/build/_deps/googletest-src/googletest/src/gtest_main.cc",
+  "file": "/usr/workspaces/Knowledgebase/capra_exercize/build/_deps/googletest-src/googletest/src/gtest_main.cc"
+},
+{
+  "directory": "/usr/workspaces/Knowledgebase/capra_exercize/build/_deps/googletest-build/googletest",
+  "command": "/usr/bin/g++-10   -I/usr/workspaces/Knowledgebase/capra_exercize/build/_deps/googletest-src/googletest/include -I/usr/workspaces/Knowledgebase/capra_exercize/build/_deps/googletest-src/googletest  -g   -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++11 -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /usr/workspaces/Knowledgebase/capra_exercize/build/_deps/googletest-src/googletest/src/gtest-all.cc",
+  "file": "/usr/workspaces/Knowledgebase/capra_exercize/build/_deps/googletest-src/googletest/src/gtest-all.cc"
+}
+]

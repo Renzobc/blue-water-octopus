@@ -1,0 +1,4 @@
+Checks: >
+    google-*,
+    -google-readability-avoid-underscore-in-googletest-name, cppcoreguidelines-pro-type-vararg, cppcoreguidelines-pro-bounds-array-to-pointer-decay
+HeaderFilterRegex: capra-*

@@ -8,7 +8,7 @@
 	},
 	"remoteUser": "rnz",
 	"runArgs": [
-		"--network=bridge",
+		"--network=host",
 		"--pid=host",
 		"--volume=/dev/shm:/dev/shm",
 		"--cap-add=SYS_PTRACE",
@@ -17,8 +17,7 @@
 		"--volume=/tmp/.X11-unix:/tmp/.X11-unix"
 	],
 	"containerEnv": {
-		// "DISPLAY": "${localEnv:DISPLAY}",
-		// "RMW_IMPLEMENTATION": "rmw_fastrtps_cpp"
+		// "DISPLAY": "${localEnv:DISPLAY}"
 	},
 	// Set *default* container specific settings.json values on container create.
 	"settings": {
@@ -42,6 +41,7 @@
 		"gruntfuggly.todo-tree",
 		"ymotongpoo.licenser",
 		"himanoa.Python-autopep8",
-		"cschlosser.doxdocgen"
+		"cschlosser.doxdocgen",
+		"ms-vscode.cpptools-extension-pack"
 	]
 }

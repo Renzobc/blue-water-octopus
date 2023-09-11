@@ -1,0 +1,1 @@
+/usr/bin/g++-10  -g   CMakeFiles/app-Capra.dir/Capra/app-Capra.cpp.o  -o app-Capra  ../src/libCapra.a 

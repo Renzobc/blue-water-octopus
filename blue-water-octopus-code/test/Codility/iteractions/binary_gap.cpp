@@ -10,6 +10,20 @@
  * material is strictly forbidden unless prior written permission is obtained
  * from Capra Robotics ApS.
  * 
- * cyclic_rotation.hpp
+ * bynary_gap.hpp
  */
-#include "arrays/cyclic_rotation.hpp"
+
+#include "iteractions/binary_gap.hpp"
+
+#include <gtest/gtest.h>
+
+namespace test_binary_gap
+{
+TEST(binary_gap, example_A_1041) { EXPECT_EQ(binary_gap::solution_A(1041), 5); }
+
+TEST(binary_gap, example_A_32) { EXPECT_EQ(binary_gap::solution_A(32), 0); }
+
+TEST(binary_gap, example_B_1041) { EXPECT_EQ(binary_gap::solution_B(1041), 5); }
+
+TEST(binary_gap, example_B_1162) { EXPECT_EQ(binary_gap::solution_B(1162), 3); }
+}  // namespace test_binary_gap

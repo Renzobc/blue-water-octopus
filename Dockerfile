@@ -17,6 +17,8 @@ RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone &
   nano \ 
   gnupg \
   git \
+  ament-cmake \
+  ament-cmake-googletest \
   gdb \
   sudo \
   clang-tidy \

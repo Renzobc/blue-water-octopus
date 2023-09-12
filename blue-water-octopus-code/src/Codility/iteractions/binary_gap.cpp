@@ -12,3 +12,4 @@
  * 
  * bynary_gap.hpp
  */
+#include "iteractions/binary_gap.hpp"

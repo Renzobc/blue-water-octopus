@@ -4,12 +4,14 @@
 		"args": {
 			"WORKSPACE": "${containerWorkspaceFolder}"
 		},
-		"target": "developer"
+		"target": "developer",
+		"name": "blue-water-octopus",
 	},
 	"remoteUser": "rnz",
 	"runArgs": [
 		"--network=host",
 		"--pid=host",
+		"--name=blue-water-octopus",
 		"--volume=/dev/shm:/dev/shm",
 		"--cap-add=SYS_PTRACE",
 		"--security-opt=seccomp:unconfined",

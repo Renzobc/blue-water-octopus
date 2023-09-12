@@ -10,6 +10,5 @@
  * material is strictly forbidden unless prior written permission is obtained
  * from Capra Robotics ApS.
  * 
- * cyclic_rotation.hpp
+ * perm_missing_elem.hpp
  */
-#include "arrays/cyclic_rotation.hpp"

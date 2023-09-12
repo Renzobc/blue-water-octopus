@@ -10,6 +10,5 @@
  * material is strictly forbidden unless prior written permission is obtained
  * from Capra Robotics ApS.
  * 
- * cyclic_rotation.hpp
+ * odd_occurencesin_array.cpp
  */
-#include "arrays/cyclic_rotation.hpp"

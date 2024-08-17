@@ -12,3 +12,23 @@
  * 
  * tape_equilibrium.hpp
  */
+#include "time_complexity/tape_equilibrium.hpp"
+
+#include <vector>
+
+#include "gtest/gtest.h"
+
+namespace test_time_complexity
+{
+TEST(test_time_complexity, example)
+{
+  std::vector<int> A{3, 1, 2, 4, 3};
+  EXPECT_EQ(1, time_complexity::solution(A));
+}
+
+TEST(test_time_complexity, two_elements)
+{
+  std::vector<int> A{0, 2000};
+  EXPECT_EQ(2000, time_complexity::solution(A));
+}
+}  // namespace test_time_complexity

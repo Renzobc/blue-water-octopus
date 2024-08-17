@@ -12,3 +12,4 @@
  * 
  * tape_equilibrium.hpp
  */
+#include "time_complexity/tape_equilibrium.hpp"

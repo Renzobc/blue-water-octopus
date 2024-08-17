@@ -53,3 +53,17 @@ target_link_libraries(test-binary-gap Codility)
 
 ament_add_gtest(test-cyclic_rotation Codility/arrays/cyclic_rotation.cpp)
 target_link_libraries(test-cyclic_rotation Codility)
+
+
+ament_add_gtest(test-tape_equilibrium Codility/time_complexity/tape_equilibrium.cpp)
+target_link_libraries(test-tape_equilibrium Codility)
+
+
+ament_add_gtest(test-frog-river-one Codility/counting_elements/frog_river_one.cpp)
+target_link_libraries(test-frog-river-one Codility)
+
+ament_add_gtest(test-perm-check Codility/counting_elements/perm_check.cpp)
+target_link_libraries(test-perm-check Codility)
+
+ament_add_gtest(test-max-counters Codility/counting_elements/max_counters.cpp)
+target_link_libraries(test-max-counters Codility)

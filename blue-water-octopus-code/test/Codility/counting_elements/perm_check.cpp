@@ -12,3 +12,31 @@
  * 
  * perm_check.hpp
  */
+#include "counting_elements/perm_check.hpp"
+
+#include <vector>
+
+#include "gtest/gtest.h"
+
+namespace test_counting_elements
+{
+
+TEST(perm_check, example_1)
+{
+  // Given array A such that:
+
+  //     A[0] = 4
+  //     A[1] = 1
+  //     A[2] = 3
+  // the function should return 0.
+
+  std::vector<int> A{4, 1, 3, 2};
+  EXPECT_EQ(perm_check::solution(A), 1);
+}
+
+TEST(perm_check, example_2)
+{
+  std::vector<int> A{4, 1, 3};
+  EXPECT_EQ(perm_check::solution(A), 0);
+}
+}  // namespace test_counting_elements

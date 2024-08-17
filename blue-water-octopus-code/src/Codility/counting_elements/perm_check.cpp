@@ -12,3 +12,4 @@
  * 
  * perm_check.hpp
  */
+#include "counting_elements/perm_check.hpp"

@@ -1,6 +1,6 @@
 ARG UBUNTU_VERSION=jammy
 ARG FROM_IMAGE=ubuntu:$UBUNTU_VERSION
-ARG OVERLAY_WS=/opt/rnz/overlay_ws
+ARG OVERLAY_WS=/opt/renzobc/overlay_ws
 # ARG TEST_PATH=capra-ros-local-planner/capra-ros-local-planner/test
 
 
@@ -43,7 +43,7 @@ ENV TZ=Europe/Copenhagen
 
 ENV RMW_IMPLEMENTATION=rmw_fastrtps_cpp
 
-ARG USERNAME=rnz
+ARG USERNAME=renzobc
 ARG USER_UID=1000
 ARG USER_GID=$USER_UID
 

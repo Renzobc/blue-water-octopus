@@ -7,7 +7,7 @@
 		"target": "developer",
 		"name": "blue-water-octopus",
 	},
-	"remoteUser": "rnz",
+	"remoteUser": "renzobc",
 	"runArgs": [
 		"--network=host",
 		"--pid=host",
